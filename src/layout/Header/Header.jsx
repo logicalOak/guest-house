@@ -1,12 +1,13 @@
 import React from 'react';
 import './Header.scss';
+
 const Header = () => (
 	<header className='header pl-2 pr-2'>
-		<div className='header__inner flex flex-col items-center justify-center w-full gap-3 m-auto sm:flex-row sm:justify-beetween'>
+		<div className='header__inner flex flex-col items-center justify-center w-full gap-3 m-auto sm:flex-row sm:justify-between'>
 			<a href='#' className='logo'>
-				<img src='' alt='' />
+				<img src='/assets/images/logo.svg' alt='Guest House' />
 			</a>
-			<ul>
+			<ul className='header__menu flex justify-center gap-2 w-full text-white'>
 				<li>
 					<a href='#'>Start</a>
 				</li>
@@ -18,7 +19,9 @@ const Header = () => (
 				</li>
 			</ul>
 
-			<a href='#'>Book now</a>
+			<a className='button button--secondary' href='#'>
+				Book now
+			</a>
 		</div>
 	</header>
 );
