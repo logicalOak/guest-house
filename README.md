@@ -7,7 +7,7 @@ Guest House website on React
 #### 🧶 Screenshots:
 
 **Main Page:**
-![App Screenshot](images/screen.png)
+![App Screenshot](assets/images/preview.png)
 **Detail Page:**
 
 ---
